@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+ <nav class="navbar">
+   <div class="max-width">
+     <div class="logo"><a href="#">Portfolio.</a></div>
+     <ul class="menu">
+      <li><a href="#" onClick ="goHome()">home</a></li>
+       <li><a href="#" onClick ="goToAbout()">about me</a></li>
+       <li><a href="#"onClick ="goTo()">contacts</a></li>
+     </ul>
+   </div>
+ </nav>
+ <section class="home" id="home">
+   <div class="max-width">
+     <div class="home-content">
+       <div class="text-1">Hello, my name is</div>
+       <div class="text-2">Alina :)</div>
+       <div class="text-3">and I'm a <span>Web designer.</span></div>
+     </div>
+   </div>
+ </section>
+ 
+
+ 
+<script>
+  var goToAbout =function (){
+      
+     location.href="about.html"}; 
+
+     var goHome =function (){
+      
+      location.href="index.html"};
+
+     var goTo =function (){
+      
+      location.href="contacts.html"};
+     
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>

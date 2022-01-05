@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Pacifico&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    /*background:rgb(202, 158, 255) ;*/
+    font-family: 'Pacifico', sans-serif;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+color:#000;
+font-size: 55px;
+font-weight: 600;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+color:#000;
+font-size: 30px;
+font-weight: 500;
+margin-left: 25px;
+transition:color 0.3s ease ;
+}
+.navbar .menu li a:hover{
+    color:rgb(164, 93, 250) ;
+}
+.home{
+    display: flex;
+    background: url("images/87.jpg") no-repeat right;
+    height: 209vh;
+    color: #000;
+    min-height: 520px;
+    font-family: 'Cookie', sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size:45px ;
+}
+.home .home-content .text-2{
+    font-size:90px ;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size:50px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color:rgb(184, 129, 250) ;
+    font-weight: 500;
+}
+section{
+    padding: 50px 0;
+}
+.about{
+    font-family: 'Cookie',sans-serif;
+    background: rgb(222, 201, 255);
+}
+.about .title{
+    font-family: 'Pacifico', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+
+}
+.about .about-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.about .about-content .left{
+    width: 45%;
+    font-size: 50px;
+}
+.about .about-content .left img{
+    border-radius: 19px;
+}
+.about .about-content .right{
+    width: 45%;
+    font-size: 50px; 
+}
+#footer{
+    height: 250px;
+    background-color: #f5ceff; 
+    margin-bottom: 10px; 
+    border-radius: 20px; 
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
+    font-size: 25px;
+  }
+  
+  
+    .fon{
+    
+    margin:20px 0 0 20px;
+    
+    
+  }
+  .fax{ 
+    
+    margin:20px 0 0 20px;
+  }
+  .mail{ 
+    
+   margin:20px 0 0 20px;
+  }
+.contacts{
+    font-family: 'Cookie',sans-serif;
+    background: url("images/light-lilac-purple-white-checkered-background-space-graphic-design-abstract-checkered-background-space-graphic-design-193503309.jpg") no-repeat center;
+    height: 139vh;
+    
+}
+  .contacts .title{
+    font-family: 'Pacifico', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+  }
